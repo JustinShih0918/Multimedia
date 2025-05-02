@@ -178,7 +178,7 @@ def task1():
     ref = load_image_color('img/008.jpg')
     target = load_image_color('img/009.jpg')
 
-    methods = {'full': full_search, 'log': log_search}
+    methods = {'full': full_search, '2d': log_search}
     block_sizes = [8, 16]
     ps = [8, 16]
 
